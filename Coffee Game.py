@@ -3,7 +3,7 @@
 
 # UPDATE 2 OUT NOW!!!
 # Features:
-# New endings, improved code, and, I finally started work on the making part of the game (where you make your own coffee)
+# New endings and ending drawings, improved code, and, I finally started work on the making part of the game (where you make your own coffee)
 # This godforsaken code drives me insane when trying to fix it, so sadly, update 2 (OUT NOW PLAY IT PLEASE IUDHUAHSDIAUSDDSDSGFG) does not include the maker gamemode:
 # (The code:)
 
@@ -74,12 +74,12 @@ print("""
         #################
       |###################| 
       |###################|---- 
-      |___#############___| |  |              
-      |   |____________|  | |  |         
+      |___#############___| |  |   Coffees... haha, get it? No...? Oh...           
+      |   |____________|  | |  |   :(
       |                   | |  | 
-      |                   | |  | 
-      |                   |----
-      |                   |  
+      | COFFEE COFFEE COF-| |  | 
+      | FEE COFFEE COFFEE |----
+      | COFFEE COFFEE     |  
       |___________________|
       
 """)
@@ -107,12 +107,74 @@ if play == "p":
             print("BUUUUURRRRPPPPPPPP!!!!!!!!!")
             sleep(3)
             print("Dazed, you give the shop owner a crazed look. It tasted like blueberries, though, so, that's a bonus.")
+            sleep(1)
+            print("You got the...")
+            sleep(1)
+            print("""
+            
+                            Weird, burp inducing, blueberry tasting,
+                            ______   _____    _______   _______   ______   ______
+                   ~~      |        |     |  |         |         |        | 
+                  ~~~~     |        |     |  |_______  |_______  |______  |_______
+               ~~~~~       |        |     |  |         |         |        | 
+             ~~~~~~        |______  |_____|  |         |         |______  |_______... uh...  thing... ending.
+               ~~~~~~
+              ~~~~~~~~
+            ~~~~~~~~~~~~
+           ~~~~~~~~~~~~                
+        #################
+      |###################| 
+      |###################|---- 
+      |___#############___| |  |              
+      |   |____________|  | |  |         
+      |                   | |  | 
+      |   WORLD'S BEST    | |  | 
+      |     COFFEE        |----
+      |   B U R P E R     |  
+      |___________________|
+            
+    Tasty!                   
+    
+            
+            
+            
+            """)
             quit()
         elif random_coffee == 2:
             print("You got coffee #2!")
             sleep(2)
             print("The shop owner slides a nice coffee down the table. It looks beautiful, and shines in the sunlight. ")
             print("Enjoy the nice, warm, energising liquid!")
+            sleep(1)
+            print("You got the...")
+            sleep(1)
+            print("""
+            
+                            Normal but slightly better than usual tasting          
+                            ______   _____    _______   _______   ______   ______
+                   ~~      |        |     |  |         |         |        | 
+                  ~~~~     |        |     |  |_______  |_______  |______  |_______
+               ~~~~~       |        |     |  |         |         |        | 
+             ~~~~~~        |______  |_____|  |         |         |______  |_______  ending.
+               ~~~~~~
+              ~~~~~~~~
+            ~~~~~~~~~~~~
+           ~~~~~~~~~~~~                
+        #################
+      |###################| 
+      |###################|---- 
+      |___#############___| |  |    SLURP SLURP GULP GULP SIP!          
+      |   |____________|  | |  |         
+      |                   | |  |   
+      | i am dependant on | |  | 
+      |     COFFEE        |----
+      |  to survive       |                 
+      |___________________| 
+            
+            
+            
+            
+            """)
             quit()
         elif random_coffee == 3:
             print("You got coffee #3!")
@@ -132,7 +194,7 @@ if play == "p":
             print("The drink tastes beautiful, and you can't stop buying more and more amd more and more and more...")
             sleep(4)
             while 3 > 1:
-                print("and more and more and more...")
+                print("and more and more and more... (you got the addiction ending, btw (and btw means by the way, btw)) ")
         elif random_coffee == 5:
             print("The owner shrugs and states that coffee #5 is out of stock, for... reasons...")
         elif random_coffee == 6:
@@ -143,6 +205,38 @@ if play == "p":
             print("You immediately become energised, and exit the shop, do a 50 mile run and break your legs and die.")
             sleep(2)
             print("The end!")
+            sleep(1)
+            print("You got the...")
+            sleep(1)
+            print("""
+            
+            
+                            Fitness
+                            ______   _____    _______   _______   ______   ______
+                   ~~      |        |     |  |         |         |        | 
+                  ~~~~     |        |     |  |_______  |_______  |______  |_______
+               ~~~~~       |        |     |  |         |         |        | 
+             ~~~~~~        |______  |_____|  |         |         |______  |_______  of DEATH ending.
+               ~~~~~~
+              ~~~~~~~~
+            ~~~~~~~~~~~~
+           ~~~~~~~~~~~~                
+        #################             I'm sure it tasted nice though.
+      |###################| 
+      |###################|---- 
+      |___#############___| |  |              
+      |   |____________|  | |  |         
+      |                   | |  | 
+      | FITNESS POWER     | |  | 
+      |   BUT IN...       |----
+      |  C O F F E E !    |  
+      |___________________|
+            
+            
+            
+            
+            
+            """)
     if answer.lower() == "make":
         coffee_beans = 20
         milk_droplets = 100
@@ -173,9 +267,9 @@ if play == "p":
               |___#############___| |  |             
               |   |____________|  | |  |         
               |                   | |  |                    
-              |                   | |  | 
-              |                   |----
-              |                   |  
+              |  I LOVE COFFEE    | |  | 
+              |  AND UHH... STUFF |----
+              |   LIKE THAT       |  
               |___________________|       Currently re-stocking coffee beans...
 
         """)
@@ -272,9 +366,9 @@ if drank_key == True:
       |___#############___| |  |              
       |   |____________|  | |  |         
       |                   | |  | 
-      |                   | |  | 
-      |                   |----
-      |                   |                 _______
+      |   haha you are a  | |  | 
+      |  coffee now haha  |----
+      | sip sip gulp gulp |                 _______
       |___________________|                |       |---
                                            |   |   |   |___
                                            |   |   |       |_
@@ -292,3 +386,4 @@ if drank_key == True:
     """)
 elif play == "dp":
     quit()
+
