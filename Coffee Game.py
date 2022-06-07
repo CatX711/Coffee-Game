@@ -1,9 +1,64 @@
+# All art and code by CatX
+
+
+# UPDATE 2 OUT NOW!!!
+# Features:
+# New endings, improved code, and, I finally started work on the making part of the game (where you make your own coffee)
+# This godforsaken code drives me insane when trying to fix it, so sadly, update 2 (OUT NOW PLAY IT PLEASE IUDHUAHSDIAUSDDSDSGFG) does not include the maker gamemode:
+# (The code:)
+
+"""
+# Code here has to be fixed:
+        answer = input("How many coffee beans do you want? ")
+        coffee_beans -= int(input())
+        if coffee_beans > 7:
+            Lots_of_coffee_beans = True
+        answer = input("How many drops of milk do you want in your coffee? ")
+        milk_droplets -= int(input())
+        if milk_droplets > 27:
+            Lots_of_milk_droplets = True
+        answer = input("How many sugar cubes do you want in your coffee? ")
+        sugar_cubes -= int(input())
+        if sugar_cubes > 3:
+            Lots_of_sugar_cubes = True
+        print("Making...")
+        sleep(3)
+        print("Coffee done! Here are the results:")
+        if Lots_of_coffee_beans == True:
+            sleep(2)
+            print("Too many coffee beans!")
+        if Lots_of_milk_droplets == True:
+            print("A bit too much milk!")
+        if Lots_of_sugar_cubes == True:
+            sleep(2)
+            print("Too many sugar cubes!")
+        elif Lots_of_coffee_beans == False:
+            sleep(2)
+            print("A good amount of coffee beans!")
+        elif Lots_of_milk_droplets == False:
+            sleep(2)
+            print("Just the right amount of milk droplets!")
+        elif Lots_of_sugar_cubes == False:
+            sleep(2)
+            print("You resisted the temptation for more sugar- good job!")
+        print("Here are the resources you have left:")
+        sleep(1)
+        print("You have ", coffee_beans, " coffee beans left over,")
+        sleep(1)
+        print(milk_droplets, " milk droplets,")
+        sleep(1)
+        print("And finally, you have ", sugar_cubes, " sugar cubes left over." )
+        sleep(1)
+        print("Enjoy!")
+        # Here is where the code that needs fixing ends.
+"""        
+
 
 # Just a simple game about coffee... or is it?
 import random
 from time import sleep
 drank_key = False
-print("""
+print(""" 
 
 
                            A totally normal
@@ -67,7 +122,7 @@ if play == "p":
             sleep(2)
             print("You start choking on something, and clutch your burning throat. Eventually, you cough up a golden key.")
             sleep(3)
-            print("It's covered in drool. This must have been what the drink was reacting with...?")
+            print("It's covered in drool. This key must have been what the drink was reacting with...?")
             sleep(2)
             drank_key = True
         elif random_coffee == 4:
@@ -88,23 +143,152 @@ if play == "p":
             print("You immediately become energised, and exit the shop, do a 50 mile run and break your legs and die.")
             sleep(2)
             print("The end!")
-    if drank_key == True:
-        print("The owner of the shop eyes you suspiciously.")
-        print("You hold the sodden key in your hand.")
-        sleep(2)
-        print("You look around and see a door with a lock. You walk over to it and, just for fun, try to see if the key works.")
+    if answer.lower() == "make":
+        coffee_beans = 20
+        milk_droplets = 100
+        sugar_cubes = 20
+        Lots_of_coffee_beans = False
+        Lots_of_milk_droplets = False
+        Lots_of_sugar_cubes = False
+        print("Loading...")
+        sleep(3)
+        print("Welcome to make a coffee!")
+        sleep(1)
+        print(""" 
+
+
+                                   Make a...
+                                    ______   _____    _______   _______   ______   ______   
+                           ~~      |        |     |  |         |         |        |          |
+                          ~~~~     |        |     |  |_______  |_______  |______  |_______   |
+                       ~~~~~       |        |     |  |         |         |        |          |
+                     ~~~~~~        |______  |_____|  |         |         |______  |_______   #
+                       ~~~~~~
+                      ~~~~~~~~
+                    ~~~~~~~~~~~~
+                   ~~~~~~~~~~~~                
+                #################                          
+              |###################|                      
+              |###################|----                
+              |___#############___| |  |             
+              |   |____________|  | |  |         
+              |                   | |  |                    
+              |                   | |  | 
+              |                   |----
+              |                   |  
+              |___________________|       Currently re-stocking coffee beans...
+
+        """)
+        sleep(3)
+        print("""Welcome to make a coffee! You currently have:"
+         
+         20 Coffee Beans (5 beans for one coffee)     
+         1 Bottle of Milk (1 quarter milk per normal coffee) (you have 100 drops of milk and a quarter takes away 25 drops)
+         20 Sugar Cubes (2 per cuppa')     
+              """)
+        print("Get ready to make your coffee...")
         sleep(4)
-        print("To your surprise, it works. Just as you are about to step into the pitch black room, you hear a scream from inside,")
-        print("and turn around. The owner is holding a bat. She stares a you furiously. WHACK!")
+        print("Now!")
+        sleep(1)
+
+        # Code here has to be fixed:
+        answer = input("How many coffee beans do you want? ")
+        coffee_beans -= int(input())
+        if coffee_beans > 7:
+            Lots_of_coffee_beans = True
+        answer = input("How many drops of milk do you want in your coffee? ")
+        milk_droplets -= int(input())
+        if milk_droplets > 27:
+            Lots_of_milk_droplets = True
+        answer = input("How many sugar cubes do you want in your coffee? ")
+        sugar_cubes -= int(input())
+        if sugar_cubes > 3:
+            Lots_of_sugar_cubes = True
+        print("Making...")
         sleep(3)
-        print("You wake up on a conveyer belt. You are moving towards some grinding machine.")
-        print("Suddenly you realise you are tied up and can't move.")
-        print("You look around. You see the owner staring at you.")
-        sleep(3)
-        print("'You will make an excellent coffee...' She says, pulling some sort of lever.")
-        sleep(2)
-        print("'HELP ME!!!!' You scream.")
-        print("Her cackles are the last thing you hear before you plummet into the grinder, never to be seen again...")
+        print("Coffee done! Here are the results:")
+        if Lots_of_coffee_beans == True:
+            sleep(2)
+            print("Too many coffee beans!")
+        if Lots_of_milk_droplets == True:
+            print("A bit too much milk!")
+        if Lots_of_sugar_cubes == True:
+            sleep(2)
+            print("Too many sugar cubes!")
+        elif Lots_of_coffee_beans == False:
+            sleep(2)
+            print("A good amount of coffee beans!")
+        elif Lots_of_milk_droplets == False:
+            sleep(2)
+            print("Just the right amount of milk droplets!")
+        elif Lots_of_sugar_cubes == False:
+            sleep(2)
+            print("You resisted the temptation for more sugar- good job!")
+        print("Here are the resources you have left:")
+        sleep(1)
+        print("You have ", coffee_beans, " coffee beans left over,")
+        sleep(1)
+        print(milk_droplets, " milk droplets,")
+        sleep(1)
+        print("And finally, you have ", sugar_cubes, " sugar cubes left over." )
+        sleep(1)
+        print("Enjoy!")
+        # Here is where the code that needs fixing ends.
+if drank_key == True:
+    print("The owner of the shop eyes you suspiciously.")
+    print("You hold the sodden key in your hand.")
+    sleep(2)
+    print("You look around and see a door with a lock. You walk over to it and, just for fun, try to see if the key works.")
+    sleep(4)
+    print("To your surprise, it works. Just as you are about to step into the pitch black room, you hear a scream from inside,")
+    print("and turn around. The owner is holding a bat. She stares a you furiously. WHACK!")
+    sleep(5)
+    print("You wake up on a conveyer belt. You are moving towards some grinding machine.")
+    print("Suddenly you realise you are tied up and can't move.")
+    print("You look around. You see the owner staring at you.")
+    sleep(4)
+    print("'You will make an excellent coffee...' She says, pulling some sort of lever.")
+    sleep(5)
+    print("'HELP ME!!!!' You scream.")
+    print("Her cackles are the last thing you hear before you plummet into the grinder, never to be seen again...")
+    sleep(1)
+    print("You got the...")
+    sleep(2)
+    print("""
+    
+                            You are a
+                            ______   _____    _______   _______   ______   ______
+                   ~~      |        |     |  |         |         |        | 
+                  ~~~~     |        |     |  |_______  |_______  |______  |_______
+               ~~~~~       |        |     |  |         |         |        | 
+             ~~~~~~        |______  |_____|  |         |         |______  |_______  ending.
+               ~~~~~~
+              ~~~~~~~~
+            ~~~~~~~~~~~~
+           ~~~~~~~~~~~~                
+        #################
+      |###################| 
+      |###################|---- 
+      |___#############___| |  |              
+      |   |____________|  | |  |         
+      |                   | |  | 
+      |                   | |  | 
+      |                   |----
+      |                   |                 _______
+      |___________________|                |       |---
+                                           |   |   |   |___
+                                           |   |   |       |_
+                                            -------          |
+                                                            _|                  
+                                            _______
+                                           |       |---
+                                           |   |   |   |___
+                                           |   |   |       |_
+                                            -------          |
+                                                            _|                                                  
+    
+    
+    
+    """)
 elif play == "dp":
     quit()
-
