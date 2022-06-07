@@ -1,0 +1,49 @@
+*Last time I was caught out by tu2 for using a space in my file name, so I made sure to not make that mistake twice.*
+
+*Here is the broken code:*
+
+``
+        # Code here has to be fixed:
+        answer = input("How many coffee beans do you want? ")
+        coffee_beans -= int(input())
+        if coffee_beans > 7:
+            Lots_of_coffee_beans = True
+        answer = input("How many drops of milk do you want in your coffee? ")
+        milk_droplets -= int(input())
+        if milk_droplets > 27:
+            Lots_of_milk_droplets = True
+        answer = input("How many sugar cubes do you want in your coffee? ")
+        sugar_cubes -= int(input())
+        if sugar_cubes > 3:
+            Lots_of_sugar_cubes = True
+        print("Making...")
+        sleep(3)
+        print("Coffee done! Here are the results:")
+        if Lots_of_coffee_beans == True:
+            sleep(2)
+            print("Too many coffee beans!")
+        if Lots_of_milk_droplets == True:
+            print("A bit too much milk!")
+        if Lots_of_sugar_cubes == True:
+            sleep(2)
+            print("Too many sugar cubes!")
+        elif Lots_of_coffee_beans == False:
+            sleep(2)
+            print("A good amount of coffee beans!")
+        elif Lots_of_milk_droplets == False:
+            sleep(2)
+            print("Just the right amount of milk droplets!")
+        elif Lots_of_sugar_cubes == False:
+            sleep(2)
+            print("You resisted the temptation for more sugar- good job!")
+        print("Here are the resources you have left:")
+        sleep(1)
+        print("You have ", coffee_beans, " coffee beans left over,")
+        sleep(1)
+        print(milk_droplets, " milk droplets,")
+        sleep(1)
+        print("And finally, you have ", sugar_cubes, " sugar cubes left over." )
+        sleep(1)
+        print("Enjoy!")
+        # Here is where the code that needs fixing ends.
+        ``
