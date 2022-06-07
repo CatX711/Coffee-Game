@@ -1,8 +1,8 @@
-*Last time I was caught out by tu2 for using a space in my file name, so I made sure to not make that mistake twice.*
+Last time I was caught out by tu2 for using a space in my file name, so I made sure to not make that mistake twice.
 
-*Here is the broken code:*
+Here is the broken code:
 
-``
+
         # Code here has to be fixed:
         answer = input("How many coffee beans do you want? ")
         coffee_beans -= int(input())
@@ -46,4 +46,4 @@
         sleep(1)
         print("Enjoy!")
         # Here is where the code that needs fixing ends.
-        ``
+        
